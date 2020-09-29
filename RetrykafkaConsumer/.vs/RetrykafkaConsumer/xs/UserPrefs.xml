@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{8BFE487F-2672-41FE-BDB0-91FB16A83EDF}|Default">
+  <MonoDevelop.Ide.ItemProperties.RetrykafkaConsumer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RetrykafkaConsumer/KafkaConsumer.cs">
+    <Files>
+      <File FileName="RetrykafkaConsumer/KafkaConsumer.cs" Line="60" Column="30" />
+      <File FileName="log.txt" Line="37" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="RetrykafkaConsumer" expanded="True">
+            <Node name="RetrykafkaConsumer" expanded="True">
+              <Node name="KafkaConsumer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

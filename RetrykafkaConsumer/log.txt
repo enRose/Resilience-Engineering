@@ -1,0 +1,36 @@
+
+09/30/2020 01:27:02 +13:00
+Worker ExecuteAsync()
+Background: False
+Thread Pool: False
+Thread ID: 1
+
+09/30/2020 01:27:15 +13:00
+Calling API for message 89888161-fd00-4f31-b8fb-1956f2ecba5d
+Background: True
+Thread Pool: True
+Thread ID: 5
+
+09/30/2020 01:27:16 +13:00
+Retry #1
+Background: True
+Thread Pool: True
+Thread ID: 4
+
+09/30/2020 01:27:18 +13:00
+Calling API for message 89888161-fd00-4f31-b8fb-1956f2ecba5d
+Background: True
+Thread Pool: True
+Thread ID: 4
+
+09/30/2020 01:27:19 +13:00
+Retry #2
+Background: True
+Thread Pool: True
+Thread ID: 4
+
+09/30/2020 01:27:23 +13:00
+Calling API for message 89888161-fd00-4f31-b8fb-1956f2ecba5d
+Background: True
+Thread Pool: True
+Thread ID: 7

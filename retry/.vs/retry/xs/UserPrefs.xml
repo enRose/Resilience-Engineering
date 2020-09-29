@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{207B6D8F-E797-4090-B53F-87CE7B769469}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="retry/yoyo.cs">
+    <Files>
+      <File FileName="retry/KafkaProducer.cs" Line="17" Column="6" />
+      <File FileName="log.txt" Line="767" Column="1" />
+      <File FileName="retry/Controllers/RetryController.cs" Line="30" Column="45" />
+      <File FileName="retry/yoyo.cs" Line="1" Column="1" />
+      <File FileName="retry/Logger.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="retry" expanded="True">
+            <Node name="retry" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="yoyo.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.retry PreferredExecutionTarget="/Applications/Firefox.app" />
+</Properties>

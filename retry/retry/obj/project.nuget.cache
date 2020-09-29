@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "t5Yo+YqvFj3wtuoXDbA/pcYpY41IXsMHTwFD+FZd6hX4w90unnA4GIk7l9xxW2U1wL62e6T5XVmIwSmhBs5+8g==",
+  "success": true,
+  "projectFilePath": "/Users/yiniyin/Projects/try-stuff/retry/retry/retry.csproj",
+  "expectedPackageFiles": [
+    "/Users/yiniyin/.nuget/packages/confluent.kafka/1.5.1/confluent.kafka.1.5.1.nupkg.sha512",
+    "/Users/yiniyin/.nuget/packages/librdkafka.redist/1.5.0/librdkafka.redist.1.5.0.nupkg.sha512",
+    "/Users/yiniyin/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/yiniyin/.nuget/packages/polly/7.2.1/polly.7.2.1.nupkg.sha512",
+    "/Users/yiniyin/.nuget/packages/polly.contrib.simmy/0.3.0/polly.contrib.simmy.0.3.0.nupkg.sha512",
+    "/Users/yiniyin/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

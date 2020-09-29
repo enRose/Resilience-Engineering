@@ -1,0 +1,766 @@
+
+Controller AgreeToRetry() at 11.16.18.946235 ms
+Background: True
+Thread Pool: True
+Thread ID: 11
+
+Produce() method at 11.16.19.805842 ms
+Background: True
+Thread Pool: True
+Thread ID: 11
+
+11.16.20.080051 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 11.16.37.763041 ms
+Background: True
+Thread Pool: True
+Thread ID: 15
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.16.37.763857 ms
+Background: True
+Thread Pool: True
+Thread ID: 15
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.36.25.732167 ms
+Background: True
+Thread Pool: True
+Thread ID: 41
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.36.25.734400 ms
+Background: True
+Thread Pool: True
+Thread ID: 41
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.37.44.490625 ms
+Background: True
+Thread Pool: True
+Thread ID: 43
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.37.44.491027 ms
+Background: True
+Thread Pool: True
+Thread ID: 43
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.39.09.892398 ms
+Background: True
+Thread Pool: True
+Thread ID: 59
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.39.09.892956 ms
+Background: True
+Thread Pool: True
+Thread ID: 59
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.40.47.548974 ms
+Background: True
+Thread Pool: True
+Thread ID: 65
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.40.47.549327 ms
+Background: True
+Thread Pool: True
+Thread ID: 65
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.42.18.813611 ms
+Background: True
+Thread Pool: True
+Thread ID: 77
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.42.18.813976 ms
+Background: True
+Thread Pool: True
+Thread ID: 77
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.43.02.824163 ms
+Background: True
+Thread Pool: True
+Thread ID: 82
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.43.02.824457 ms
+Background: True
+Thread Pool: True
+Thread ID: 82
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.44.02.705769 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.44.02.706069 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.44.12.352445 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.44.12.352711 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.44.22.356209 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.44.22.356595 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.44.32.365196 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.44.32.365606 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.44.42.371983 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.44.42.372187 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.44.52.378950 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.44.52.379216 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.45.02.408683 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.45.02.409008 ms
+Background: True
+Thread Pool: True
+Thread ID: 89
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.45.12.414475 ms
+Background: True
+Thread Pool: True
+Thread ID: 94
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.45.12.414868 ms
+Background: True
+Thread Pool: True
+Thread ID: 94
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.45.22.397285 ms
+Background: True
+Thread Pool: True
+Thread ID: 94
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.45.22.397600 ms
+Background: True
+Thread Pool: True
+Thread ID: 94
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.45.32.402557 ms
+Background: True
+Thread Pool: True
+Thread ID: 94
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.45.32.402844 ms
+Background: True
+Thread Pool: True
+Thread ID: 94
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.48.59.393960 ms
+Background: True
+Thread Pool: True
+Thread ID: 100
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.48.59.394202 ms
+Background: True
+Thread Pool: True
+Thread ID: 100
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.49.09.104642 ms
+Background: True
+Thread Pool: True
+Thread ID: 100
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.49.09.104908 ms
+Background: True
+Thread Pool: True
+Thread ID: 100
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.49.19.110417 ms
+Background: True
+Thread Pool: True
+Thread ID: 102
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.49.19.110673 ms
+Background: True
+Thread Pool: True
+Thread ID: 102
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.49.29.114650 ms
+Background: True
+Thread Pool: True
+Thread ID: 96
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.49.29.114902 ms
+Background: True
+Thread Pool: True
+Thread ID: 96
+
+Controller AgreeToRetry() at 11.55.02.063661 ms
+Background: True
+Thread Pool: True
+Thread ID: 87
+
+Produce() method at 11.55.02.833111 ms
+Background: True
+Thread Pool: True
+Thread ID: 87
+
+11.55.02.838048 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 11.55.04.183577 ms
+Background: True
+Thread Pool: True
+Thread ID: 90
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.55.04.183933 ms
+Background: True
+Thread Pool: True
+Thread ID: 90
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.55.12.039390 ms
+Background: True
+Thread Pool: True
+Thread ID: 90
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.55.12.039556 ms
+Background: True
+Thread Pool: True
+Thread ID: 90
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.55.22.043056 ms
+Background: True
+Thread Pool: True
+Thread ID: 90
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.55.22.043289 ms
+Background: True
+Thread Pool: True
+Thread ID: 90
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.55.32.046210 ms
+Background: True
+Thread Pool: True
+Thread ID: 88
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.55.32.046385 ms
+Background: True
+Thread Pool: True
+Thread ID: 88
+
+Controller ConsumerRetryWriteGitHubBranch() at 11.55.42.054871 ms
+Background: True
+Thread Pool: True
+Thread ID: 87
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.55.42.055077 ms
+Background: True
+Thread Pool: True
+Thread ID: 87
+
+Controller AgreeToRetry() at 11.58.09.085004 ms
+Background: True
+Thread Pool: True
+Thread ID: 73
+
+Produce() method at 11.58.09.964267 ms
+Background: True
+Thread Pool: True
+Thread ID: 73
+
+11.58.09.970968 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 11.58.11.308336 ms
+Background: True
+Thread Pool: True
+Thread ID: 70
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 11.58.11.308566 ms
+Background: True
+Thread Pool: True
+Thread ID: 70
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.01.17.613009 ms
+Background: True
+Thread Pool: True
+Thread ID: 59
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.01.17.615160 ms
+Background: True
+Thread Pool: True
+Thread ID: 59
+
+Controller AgreeToRetry() at 12.07.44.505829 ms
+Background: True
+Thread Pool: True
+Thread ID: 46
+
+Produce() method at 12.07.45.342361 ms
+Background: True
+Thread Pool: True
+Thread ID: 46
+
+12.07.45.343903 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.07.46.682936 ms
+Background: True
+Thread Pool: True
+Thread ID: 45
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.07.46.683133 ms
+Background: True
+Thread Pool: True
+Thread ID: 45
+
+Controller AgreeToRetry() at 12.09.50.273887 ms
+Background: True
+Thread Pool: True
+Thread ID: 32
+
+Produce() method at 12.09.50.989039 ms
+Background: True
+Thread Pool: True
+Thread ID: 37
+
+12.09.50.990539 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller AgreeToRetry() at 12.10.09.699299 ms
+Background: True
+Thread Pool: True
+Thread ID: 34
+
+Produce() method at 12.10.09.787906 ms
+Background: True
+Thread Pool: True
+Thread ID: 32
+
+12.10.09.789251 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.13.49.604602 ms
+Background: True
+Thread Pool: True
+Thread ID: 22
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.13.49.604812 ms
+Background: True
+Thread Pool: True
+Thread ID: 22
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.13.49.604916 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.13.49.605072 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Controller AgreeToRetry() at 12.14.48.627492 ms
+Background: True
+Thread Pool: True
+Thread ID: 14
+
+Produce() method at 12.14.49.570081 ms
+Background: True
+Thread Pool: True
+Thread ID: 14
+
+12.14.49.571479 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.14.50.587647 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.14.50.587855 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Controller AgreeToRetry() at 12.15.05.801765 ms
+Background: True
+Thread Pool: True
+Thread ID: 14
+
+Produce() method at 12.15.05.889529 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+12.15.05.890740 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.15.05.906784 ms
+Background: True
+Thread Pool: True
+Thread ID: 13
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.15.05.907066 ms
+Background: True
+Thread Pool: True
+Thread ID: 13
+
+Controller AgreeToRetry() at 12.27.18.462587 ms
+Background: True
+Thread Pool: True
+Thread ID: 124
+
+Produce() method at 12.27.19.396256 ms
+Background: True
+Thread Pool: True
+Thread ID: 124
+
+12.27.19.397686 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.27.20.767804 ms
+Background: True
+Thread Pool: True
+Thread ID: 127
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.27.20.768006 ms
+Background: True
+Thread Pool: True
+Thread ID: 127
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.27.21.907549 ms
+Background: True
+Thread Pool: True
+Thread ID: 127
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.27.21.907824 ms
+Background: True
+Thread Pool: True
+Thread ID: 127
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.27.22.685425 ms
+Background: True
+Thread Pool: True
+Thread ID: 124
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.27.22.685652 ms
+Background: True
+Thread Pool: True
+Thread ID: 124
+
+Controller AgreeToRetry() at 12.27.57.186245 ms
+Background: True
+Thread Pool: True
+Thread ID: 122
+
+Produce() method at 12.27.57.855261 ms
+Background: True
+Thread Pool: True
+Thread ID: 128
+
+12.27.57.856840 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.27.58.871114 ms
+Background: True
+Thread Pool: True
+Thread ID: 124
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.27.58.871292 ms
+Background: True
+Thread Pool: True
+Thread ID: 124
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.27.59.746722 ms
+Background: True
+Thread Pool: True
+Thread ID: 128
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.27.59.746966 ms
+Background: True
+Thread Pool: True
+Thread ID: 128
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.28.00.558961 ms
+Background: True
+Thread Pool: True
+Thread ID: 122
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.28.00.559346 ms
+Background: True
+Thread Pool: True
+Thread ID: 122
+
+Controller AgreeToRetry() at 12.29.00.991429 ms
+Background: True
+Thread Pool: True
+Thread ID: 122
+
+Produce() method at 12.29.01.740579 ms
+Background: True
+Thread Pool: True
+Thread ID: 122
+
+12.29.01.744900 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.29.03.080406 ms
+Background: True
+Thread Pool: True
+Thread ID: 136
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.29.03.080707 ms
+Background: True
+Thread Pool: True
+Thread ID: 136
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.29.04.204741 ms
+Background: True
+Thread Pool: True
+Thread ID: 138
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.29.04.205014 ms
+Background: True
+Thread Pool: True
+Thread ID: 138
+
+Controller ConsumerRetryWriteGitHubBranch() at 12.29.04.970937 ms
+Background: True
+Thread Pool: True
+Thread ID: 139
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.29.04.971196 ms
+Background: True
+Thread Pool: True
+Thread ID: 139
+
+Controller AgreeToRetry() at 12.42.14.748375 ms
+Background: True
+Thread Pool: True
+Thread ID: 159
+
+Produce() method at 12.42.15.549893 ms
+Background: True
+Thread Pool: True
+Thread ID: 159
+
+12.42.15.551435 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.42.16.899171 ms
+Background: True
+Thread Pool: True
+Thread ID: 158
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.42.16.899433 ms
+Background: True
+Thread Pool: True
+Thread ID: 158
+
+Controller AgreeToRetry() at 12.44.01.324618 ms
+Background: True
+Thread Pool: True
+Thread ID: 159
+
+Produce() method at 12.44.02.149107 ms
+Background: True
+Thread Pool: True
+Thread ID: 159
+
+12.44.02.150548 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.44.03.486533 ms
+Background: True
+Thread Pool: True
+Thread ID: 149
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.44.03.486734 ms
+Background: True
+Thread Pool: True
+Thread ID: 149
+
+Controller AgreeToRetry() at 12.50.31.807615 ms
+Background: True
+Thread Pool: True
+Thread ID: 128
+
+Produce() method at 12.50.32.642169 ms
+Background: True
+Thread Pool: True
+Thread ID: 124
+
+12.50.32.643710 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.50.34.031584 ms
+Background: True
+Thread Pool: True
+Thread ID: 131
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.50.34.031830 ms
+Background: True
+Thread Pool: True
+Thread ID: 131
+
+Controller AgreeToRetry() at 12.51.22.321878 ms
+Background: True
+Thread Pool: True
+Thread ID: 131
+
+Produce() method at 12.51.23.024461 ms
+Background: True
+Thread Pool: True
+Thread ID: 131
+
+12.51.23.028947 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 12.51.24.043582 ms
+Background: True
+Thread Pool: True
+Thread ID: 122
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 12.51.24.043867 ms
+Background: True
+Thread Pool: True
+Thread ID: 122
+
+Controller AgreeToRetry() at 12.55.55.186925 ms
+Background: True
+Thread Pool: True
+Thread ID: 107
+
+Produce() method at 12.55.55.939846 ms
+Background: True
+Thread Pool: True
+Thread ID: 108
+
+12.55.55.965763 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 01.09.11.882553 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.09.11.882969 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Controller ConsumerRetryWriteGitHubBranch() at 01.09.14.537024 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.09.14.537290 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Controller ConsumerRetryWriteGitHubBranch() at 01.09.19.111049 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.09.19.111300 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Controller AgreeToRetry() at 01.09.30.950903 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Produce() method at 01.09.31.758495 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+01.09.31.762514 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 01.09.32.781075 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.09.32.781391 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Controller ConsumerRetryWriteGitHubBranch() at 01.09.35.371846 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.09.35.372054 ms
+Background: True
+Thread Pool: True
+Thread ID: 23
+
+Controller ConsumerRetryWriteGitHubBranch() at 01.09.39.941256 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.09.39.941496 ms
+Background: True
+Thread Pool: True
+Thread ID: 27
+
+Controller AgreeToRetry() at 01.27.14.063294 ms
+Background: True
+Thread Pool: True
+Thread ID: 49
+
+Produce() method at 01.27.14.954000 ms
+Background: True
+Thread Pool: True
+Thread ID: 54
+
+01.27.14.955229 ms
+Producing record: [{"Name":"Rick-Anderson-patch-1"},{"Name":"brecon/nginx"},{"Name":"guardrex-patch-1"},{"Name":"guardrex-patch-2"},{"Name":"guardrex-patch-4"},{"Name":"guardrex/blazor-ids-custom-domain"},{"Name":"guardrex/blazor-integrate-rc-wasm"},{"Name":"guardrex/blazor-lifecycle-diagrams"},{"Name":"guardrex/blazor-wasm-sec-api-authz"},{"Name":"inject/ra"},{"Name":"jkotalik/updateTroubleshootingGuide"},{"Name":"live"},{"Name":"master"},{"Name":"pranavkm-patch-1-2"},{"Name":"pranavkm-patch-1"},{"Name":"wade-pickett/vers5razor-9-8-20"}]
+Controller ConsumerRetryWriteGitHubBranch() at 01.27.16.295426 ms
+Background: True
+Thread Pool: True
+Thread ID: 49
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.27.16.295621 ms
+Background: True
+Thread Pool: True
+Thread ID: 49
+
+Controller ConsumerRetryWriteGitHubBranch() at 01.27.18.918617 ms
+Background: True
+Thread Pool: True
+Thread ID: 56
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.27.18.918841 ms
+Background: True
+Thread Pool: True
+Thread ID: 56
+
+Controller ConsumerRetryWriteGitHubBranch() at 01.27.23.499403 ms
+Background: True
+Thread Pool: True
+Thread ID: 48
+
+Start Yoyo ConsumerRetryWriteGitHubBranch() at 01.27.23.499662 ms
+Background: True
+Thread Pool: True
+Thread ID: 48
