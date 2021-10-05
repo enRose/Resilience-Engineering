@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "retry", "retry\retry.csproj", "{207B6D8F-E797-4090-B53F-87CE7B769469}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{207B6D8F-E797-4090-B53F-87CE7B769469}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "peroline", "peroline\peroline.csproj", "{628B4E65-52C7-4142-A59B-4257381AB023}"
 EndProject

@@ -1,32 +1,32 @@
-﻿<Properties StartupConfiguration="{207B6D8F-E797-4090-B53F-87CE7B769469}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="retry/Startup.cs">
+﻿<Properties StartupConfiguration="{207B6D8F-E797-4090-B53F-87CE7B769469}|retry">
+  <MonoDevelop.Ide.Workbench ActiveDocument="api/Entities/PersonalLoan.cs">
     <Files>
-      <File FileName="retry/Services/yoyo.cs" Line="96" Column="22" />
-      <File FileName="retry/Startup.cs" Line="29" Column="32" />
+      <File FileName="api/Helpers/DataContext.cs" Line="10" Column="48" />
+      <File FileName="api/Entities/PersonalLoan.cs" Line="9" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
           <Node name="retry" expanded="True">
-            <Node name="retry" expanded="True">
-              <Node name="Entities" expanded="True" />
+            <Node name="api" expanded="True">
+              <Node name="Db" expanded="True" />
+              <Node name="Entities" expanded="True">
+                <Node name="PersonalLoan.cs" selected="True" />
+              </Node>
               <Node name="Helpers" expanded="True" />
-              <Node name="Services" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.retry PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.peroline FirstBuild="True" />
 </Properties>
