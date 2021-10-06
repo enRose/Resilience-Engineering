@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Net.Http;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using api.Services;
-using AutoMapper;
-using Polly.Contrib.Simmy;
-using Polly.Contrib.Simmy.Outcomes;
+using retry.Entities;
 using retry.Helpers;
 using retry.ViewModels;
 
@@ -48,7 +41,7 @@ namespace retry.Services
             return new PersonalLoanVm
             {
                 App = new AppVm { Data = pl?.App?.Data },
-                Accounts = accounts?.Select(a => new AccountVm { Name = a.Name})
+                Accounts = accounts?.Select(a => new AccountVm { Name = a.Name })
             };
         }
 
@@ -56,7 +49,7 @@ namespace retry.Services
         {
             var app = await GetApp();
 
-            return await InvokeDownstreamAPI(app);
+            return await coreBankingService.ApplyFor(Convert(app));
         }
 
         public async Task<bool> AgreeToRetry()
@@ -71,33 +64,14 @@ namespace retry.Services
         public async Task<bool> ConsumerRetry(
             PersonalLoanVm app)
         {
-            return await InvokeDownstreamAPI(app);
+            return await coreBankingService.ApplyFor(Convert(app));
         }
 
-        public async Task<bool> InvokeDownstreamAPI(PersonalLoanVm app)
-        {
-            var fault = new IOException();
-
-            var chaos = MonkeyPolicy
-                .InjectExceptionAsync(with =>
-                    with.Fault(fault)
-                    .InjectionRate(1)
-                    .Enabled()
-                );
-
-            var path = Path.Combine(
-                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-                Environment.CurrentDirectory + @"/downstream.txt");
-
-            using StreamWriter outputFile = new StreamWriter(path, true);
-
-            await chaos.ExecuteAsync(async () =>
-                await outputFile.WriteAsync(
-                $"\n{JsonSerializer.Serialize(app)}\n"
-                )
-            );
-
-            return true;
-        }    
+        private PersonalLoan Convert(PersonalLoanVm dest)
+            => new PersonalLoan
+            {
+                App = new App { Data = dest?.App?.Data },
+                Accounts = dest?.Accounts?.Select(a => new Account { Name = a.Name })
+            };
     }
 }
