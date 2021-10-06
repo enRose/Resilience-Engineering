@@ -44,10 +44,8 @@ namespace api.Services
             {
                 using var responseStream = await response.Content.ReadAsStreamAsync();
 
-                var r = await JsonSerializer.DeserializeAsync
+                return await JsonSerializer.DeserializeAsync
                     <IEnumerable<Account>>(responseStream);
-
-                return r;
             }
 
             return Array.Empty<Account>();

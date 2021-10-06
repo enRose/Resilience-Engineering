@@ -26,23 +26,17 @@ namespace retry.Services
     public class AppService : IAppService
     {
         private DataContext _dbContext;
-        private readonly IMapper _mapper;
-        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IKafkaProducer kafkaProducer;
         private readonly ICoreBankingService coreBankingService;
         
         public AppService(
             DataContext context,
-            IHttpClientFactory h,
             IKafkaProducer k,
-            CoreBankingService c,
-            IMapper mapper)
+            CoreBankingService c)
         {
             _dbContext = context;
-            _httpClientFactory = h;
             kafkaProducer = k;
             coreBankingService = c;
-            _mapper = mapper;
         }
 
         public async Task<PersonalLoanVm> GetApp()
@@ -56,35 +50,6 @@ namespace retry.Services
                 App = new AppVm { Data = pl?.App?.Data },
                 Accounts = accounts?.Select(a => new AccountVm { Name = a.Name})
             };
-
-            //var request = new HttpRequestMessage(HttpMethod.Get,
-            //    "https://api.github.com/repos/aspnet/AspNetCore.Docs/branches");
-
-            //request.Headers.Add("Accept", "application/vnd.github.v3+json");
-
-            //request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
-
-            //var client = _httpClientFactory.CreateClient();
-
-            //var response = await client.SendAsync(request);
-
-            //if (response.IsSuccessStatusCode)
-            //{
-            //    using var responseStream = await response.Content.ReadAsStreamAsync();
-
-            //    var r =  await JsonSerializer.DeserializeAsync
-            //        <IEnumerable<AccountVm>>(responseStream);
-
-            //    return new PersonalLoanVm()
-            //    {
-            //        App = r
-            //    };
-            //}
-            
-            //return new PersonalLoanVm
-            //{
-            //    App = Array.Empty<AccountVm>()
-            //};
         }
 
         public async Task<bool> SubmitApp()
