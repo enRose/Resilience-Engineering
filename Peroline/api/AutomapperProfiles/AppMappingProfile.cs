@@ -9,7 +9,7 @@ namespace retry.AutomapperProfiles
     {
         public AppMappingProfile()
         {
-            CreateMap<PersonalLoanViewModel, PersonalLoan>();
+            CreateMap<PersonalLoanVm, PersonalLoan>();
         }
     }
 }

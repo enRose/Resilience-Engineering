@@ -21,7 +21,7 @@ namespace retry.Controllers
         // default route
         [Route("/app")]
         [HttpGet]
-        public async Task<PersonalLoanViewModel> GetApp() => await appService.GetApp();
+        public async Task<PersonalLoanVm> GetApp() => await appService.GetApp();
 
         // this route throws transient errors
         [HttpPost]
@@ -34,6 +34,6 @@ namespace retry.Controllers
         // called by kafka consumer
         [HttpPost]
         public async Task<bool> ConsumerRetry(
-            [FromBody] PersonalLoanViewModel app) => await appService.ConsumerRetry(app);
+            [FromBody] PersonalLoanVm v) => await appService.ConsumerRetry(v);
     }
 }

@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using api.Configs;
+using api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,7 +32,12 @@ namespace retry
             services.AddDbContext<DataContext>();
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.Configure<CoreBankingApiSettings>(
+                Configuration.GetSection(nameof(CoreBankingApiSettings)));
+
             services.AddHttpClient();
+            services.AddHttpClient<CoreBankingService>();
             services.AddScoped<IAppService, AppService>();
             services.AddScoped<IKafkaProducer, KafkaProducer>();
         }

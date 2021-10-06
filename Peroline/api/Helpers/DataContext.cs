@@ -7,7 +7,7 @@ namespace retry.Helpers
 {
     public class DataContext : DbContext
     {
-        public DbSet<PersonalLoan> PersonalLoan { get; set; }
+        public DbSet<PersonalLoan> PersonalLoans { get; set; }
 
         private readonly IConfiguration Configuration;
 

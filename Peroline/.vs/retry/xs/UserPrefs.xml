@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{207B6D8F-E797-4090-B53F-87CE7B769469}|retry">
-  <MonoDevelop.Ide.Workbench ActiveDocument="api/Entities/PersonalLoan.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="api/Services/CoreBankingService.cs">
     <Files>
-      <File FileName="api/Helpers/DataContext.cs" Line="10" Column="48" />
-      <File FileName="api/Entities/PersonalLoan.cs" Line="9" Column="21" />
+      <File FileName="api/Services/CoreBankingService.cs" Line="47" Column="52" />
+      <File FileName="api/Services/AppService.cs" Line="54" Column="1" />
+      <File FileName="api/Entities/PersonalLoan.cs" Line="12" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="retry" expanded="True">
             <Node name="api" expanded="True">
-              <Node name="Db" expanded="True" />
-              <Node name="Entities" expanded="True">
-                <Node name="PersonalLoan.cs" selected="True" />
-              </Node>
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
               <Node name="Helpers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="CoreBankingService.cs" selected="True" />
+              </Node>
               <Node name="ViewModels" expanded="True" />
             </Node>
           </Node>
@@ -26,7 +28,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/Services/AppService.cs" relfile="api/Services/AppService.cs" line="54" column="1" />
+      <Breakpoint file="/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/Services/CoreBankingService.cs" relfile="api/Services/CoreBankingService.cs" line="47" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

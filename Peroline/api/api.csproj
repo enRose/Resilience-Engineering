@@ -18,6 +18,7 @@
     <PackageReference Include="Polly.Contrib.Simmy" Version="0.3.0" />
     <PackageReference Include="Confluent.Kafka" Version="1.8.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Services\" />
@@ -26,6 +27,7 @@
     <None Remove="Helpers\" />
     <None Remove="AutomapperProfiles\" />
     <None Remove="Db\" />
+    <None Remove="Settings\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -34,5 +36,6 @@
     <Folder Include="Helpers\" />
     <Folder Include="AutomapperProfiles\" />
     <Folder Include="Db\" />
+    <Folder Include="Configs\" />
   </ItemGroup>
 </Project>
