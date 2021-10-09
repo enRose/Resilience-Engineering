@@ -10,7 +10,7 @@ namespace api.Services
 {
     public interface IAppService
     {
-        Task<PersonalLoanVm> GetApp();
+        Task<PersonalLoanVm> GetApp(int customerId);
         Task<bool> SubmitApp();
         Task<bool> AgreeToRetry();
         Task<bool> ConsumerRetry(PersonalLoanVm app);
@@ -33,7 +33,7 @@ namespace api.Services
             coreBankingService = c;
         }
 
-        public async Task<PersonalLoanVm> GetApp()
+        public async Task<PersonalLoanVm> GetApp(int customerId)
         {
             var pl = _dbContext.PersonalLoans.SingleOrDefault(x => x.Id == 1);
 
@@ -48,14 +48,14 @@ namespace api.Services
 
         public async Task<bool> SubmitApp()
         {
-            var app = await GetApp();
+            var app = await GetApp(1);
 
             return await coreBankingService.ApplyFor(Convert(app));
         }
 
         public async Task<bool> AgreeToRetry()
         {
-            var app = await GetApp();
+            var app = await GetApp(1);
 
             kafkaProducer.Produce(Guid.NewGuid().ToString(), app);
 

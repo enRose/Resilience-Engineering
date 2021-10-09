@@ -20,11 +20,13 @@ namespace api.Controllers
         }
 
         // default route
-        [Route("/app")]
+        [Route("/customers/{id}/app")]
         [HttpGet]
-        public async Task<PersonalLoanVm> GetApp() => await appService.GetApp();
+        public async Task<PersonalLoanVm> GetApp(int id) =>
+            await appService.GetApp(id);
 
         [HttpPost]
-        public async Task<bool> SubmitApp() => await appService.SubmitApp();       
+        public async Task<bool> SubmitApp() =>
+            await appService.SubmitApp();
     }
 }

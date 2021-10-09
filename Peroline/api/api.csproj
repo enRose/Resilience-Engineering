@@ -38,4 +38,9 @@
     <Folder Include="Db\" />
     <Folder Include="Configs\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\peroline\peroline.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

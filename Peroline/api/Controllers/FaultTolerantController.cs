@@ -10,37 +10,46 @@ namespace api.Controllers
     [Route("[controller]/[action]")]
     public class FaultTolerantController : ControllerBase
     {
-        private readonly IAppService appService;
+        private readonly IFaultTolerantService faultTolerantService;
 
-        public FaultTolerantController(IAppService x)
-        {
-            appService = x;
-        }
+        public FaultTolerantController(IFaultTolerantService x) =>
+            faultTolerantService = x;
 
-        [Route("/app-in-flight")]
-        [Route("/app-in-flight/{botId?}")]
+
+        [Route("/customers/{customerId}/app-in-flight")]
+        [Route("/customers/{customerId}//app-in-flight/{botId?}")]
         [HttpGet]
-        public async Task<PersonalLoanVm> AppInFlight(int? botId) =>
-            await appService.GetApp();
+        public async Task<PersonalLoanVm> AppInFlight(
+            int customerId,
+            int? botId) =>
+            await faultTolerantService.GetApp(customerId, botId);
 
 
         // Called by client when user consents to be notified
         // by an in-app notification when leaf node is back online.
         [HttpPut]
         public async Task<bool> NotificationConsent() =>
-            await appService.NotificationConsent();
+            await faultTolerantService.NotificationConsent();
 
-        [Route("/app-landing")]
+
+
+
+
+
+        [Route("/customers/{customerId}/app-landing")]
         [HttpGet]
-        public async Task<PersonalLoanVm> GetAppLanding() => await appService.GetApp();
+        public async Task<PersonalLoanVm> GetAppLanding(int customerId) =>
+            await faultTolerantService.GetApp(customerId);
 
         // called by user when they agreed for retry
         [HttpGet]
-        public async Task<bool> AgreeToRetry() => await appService.AgreeToRetry();
+        public async Task<bool> AgreeToRetry() =>
+            await faultTolerantService.AgreeToRetry();
 
         // called by kafka consumer
         [HttpPost]
         public async Task<bool> ConsumerRetry(
-            [FromBody] PersonalLoanVm v) => await appService.ConsumerRetry(v);
+            [FromBody] PersonalLoanVm v) =>
+            await faultTolerantService.ConsumerRetry(v);
     }
 }
