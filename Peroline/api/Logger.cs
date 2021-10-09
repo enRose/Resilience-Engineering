@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 
-namespace retry
+namespace api
 {
     public struct Measurement
     {

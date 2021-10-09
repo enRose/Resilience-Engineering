@@ -2,11 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using api.Services;
-using retry.Entities;
-using retry.Helpers;
-using retry.ViewModels;
+using api.Entities;
+using api.Helpers;
+using api.ViewModels;
 
-namespace retry.Services
+namespace api.Services
 {
     public interface IAppService
     {
@@ -14,6 +14,7 @@ namespace retry.Services
         Task<bool> SubmitApp();
         Task<bool> AgreeToRetry();
         Task<bool> ConsumerRetry(PersonalLoanVm app);
+        Task<bool> NotificationConsent();
     }
 
     public class AppService : IAppService
@@ -73,5 +74,10 @@ namespace retry.Services
                 App = new App { Data = dest?.App?.Data },
                 Accounts = dest?.Accounts?.Select(a => new Account { Name = a.Name })
             };
+
+        public Task<bool> NotificationConsent()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

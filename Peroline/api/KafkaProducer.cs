@@ -2,7 +2,7 @@
 using Confluent.Kafka;
 using Newtonsoft.Json;
 
-namespace retry
+namespace api
 {
     // ref:
     // https://docs.confluent.io/current/clients/dotnet.html

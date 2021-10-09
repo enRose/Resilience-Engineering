@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace retry.Entities
+namespace api.Entities
 {
     public class PersonalLoan
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using AutoMapper;
-using retry.Entities;
-using retry.ViewModels;
+using api.Entities;
+using api.ViewModels;
 
-namespace retry.AutomapperProfiles
+namespace api.AutomapperProfiles
 {
     public class AppMappingProfile : Profile
     {

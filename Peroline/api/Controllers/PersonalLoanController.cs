@@ -1,21 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using retry.Services;
-using retry.ViewModels;
+using api.Services;
+using api.ViewModels;
 
-namespace retry.Controllers
+namespace api.Controllers
 {
+    /* 
+       Existing routes that not protected by retry.
+    */
     [ApiController]
     [Route("[controller]/[action]")]
     public class PersonalLoanController : ControllerBase
     {
         private readonly IAppService appService;
 
-        public PersonalLoanController(IAppService y)
+        public PersonalLoanController(IAppService x)
         {
-            appService = y;
+            appService = x;
         }
 
         // default route
@@ -23,25 +24,7 @@ namespace retry.Controllers
         [HttpGet]
         public async Task<PersonalLoanVm> GetApp() => await appService.GetApp();
 
-        // this route throws transient errors
         [HttpPost]
-        public async Task<bool> SubmitApp() => await appService.SubmitApp();
-
-
-        // migration to retry aware endpoints
-
-
-
-
-
-
-        // called by user when they agreed for retry
-        [HttpGet]
-        public async Task<bool> AgreeToRetry() => await appService.AgreeToRetry();
-
-        // called by kafka consumer
-        [HttpPost]
-        public async Task<bool> ConsumerRetry(
-            [FromBody] PersonalLoanVm v) => await appService.ConsumerRetry(v);
+        public async Task<bool> SubmitApp() => await appService.SubmitApp();       
     }
 }

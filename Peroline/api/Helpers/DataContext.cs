@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using retry.Entities;
+using api.Entities;
 
-namespace retry.Helpers
+namespace api.Helpers
 {
     public class DataContext : DbContext
     {

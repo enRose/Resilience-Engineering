@@ -9,7 +9,7 @@ using api.Configs;
 using Microsoft.Extensions.Options;
 using Polly.Contrib.Simmy;
 using Polly.Contrib.Simmy.Outcomes;
-using retry.Entities;
+using api.Entities;
 
 namespace api.Services
 {
