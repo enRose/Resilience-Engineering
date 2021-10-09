@@ -37,6 +37,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

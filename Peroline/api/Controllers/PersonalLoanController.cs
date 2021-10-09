@@ -27,6 +27,14 @@ namespace retry.Controllers
         [HttpPost]
         public async Task<bool> SubmitApp() => await appService.SubmitApp();
 
+
+        // migration to retry aware endpoints
+
+
+
+
+
+
         // called by user when they agreed for retry
         [HttpGet]
         public async Task<bool> AgreeToRetry() => await appService.AgreeToRetry();

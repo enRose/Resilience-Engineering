@@ -4,4 +4,15 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Retry\" />
+    <None Remove="Tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FaultTolerance\" />
+    <Folder Include="Tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
 </Project>
