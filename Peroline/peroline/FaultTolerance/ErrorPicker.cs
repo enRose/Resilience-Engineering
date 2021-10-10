@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Net;
+using System.Linq;
 
 namespace peroline.FaultTolerance
 {
     public static class ErrorPicker
     {
-        public static Tunnel Pick<T>(this Tunnel tunnel)
+        public static Tunnel RetryOn<T>(this Tunnel tunnel)
             where T : Exception
         {
             tunnel.errorsToRetry.Add(typeof(T));
@@ -13,11 +14,13 @@ namespace peroline.FaultTolerance
             return tunnel;
         }
 
-        public static Tunnel Pick(
+        public static Tunnel RetryOn(
             this Tunnel tunnel,
-            HttpStatusCode statusCode)
+            params HttpStatusCode[] statusCodes
+            )
         {
-            tunnel.httpStatusToRetry.Add(statusCode);
+            statusCodes?.ToList()?.ForEach(s =>
+                tunnel.httpStatusToRetry.Add(s));
 
             return tunnel;
         }

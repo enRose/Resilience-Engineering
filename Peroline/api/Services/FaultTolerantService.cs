@@ -8,7 +8,7 @@ namespace api.Services
 {
     public interface IFaultTolerantService
     {
-        Task<PersonalLoanVm> GetApp(int customerId, int? botId = null);
+        Task<PersonalLoanVm> GetApp(string customerId, string botId = null);
         Task<bool> SubmitApp();
         Task<bool> AgreeToRetry();
         Task<bool> ConsumerRetry(PersonalLoanVm app);
@@ -17,14 +17,24 @@ namespace api.Services
 
     public class FaultTolerantService : IFaultTolerantService
     {
-        public FaultTolerantService()
+        private readonly IAppService appService;
+
+        public FaultTolerantService(
+            IAppService s)
         {
+            appService = s;
         }
 
-        [Memoriser(500, 503)]
-        public Task<PersonalLoanVm> GetApp(int customerId, int? botId = null)
+        public async Task<PersonalLoanVm> GetApp(string customerId, string botId = null)
         {
-            throw new NotImplementedException();
+            var tunnel = new Tunnel();
+
+            return await tunnel.RetryOn(
+                HttpStatusCode.InternalServerError,
+                HttpStatusCode.ServiceUnavailable
+                )
+                .ExecuteAsyn(async () => await appService.GetApp(customerId));
+
         }
 
 

@@ -20,8 +20,8 @@ namespace api.Controllers
         [Route("/customers/{customerId}//app-in-flight/{botId?}")]
         [HttpGet]
         public async Task<PersonalLoanVm> AppInFlight(
-            int customerId,
-            int? botId) =>
+            string customerId,
+            string botId) =>
             await faultTolerantService.GetApp(customerId, botId);
 
 
@@ -38,7 +38,7 @@ namespace api.Controllers
 
         [Route("/customers/{customerId}/app-landing")]
         [HttpGet]
-        public async Task<PersonalLoanVm> GetAppLanding(int customerId) =>
+        public async Task<PersonalLoanVm> GetAppLanding(string customerId) =>
             await faultTolerantService.GetApp(customerId);
 
         // called by user when they agreed for retry

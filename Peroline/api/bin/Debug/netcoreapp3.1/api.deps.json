@@ -1680,6 +1680,7 @@
       },
       "peroline/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.10",
           "xunit": "2.4.1"
         },
         "runtime": {

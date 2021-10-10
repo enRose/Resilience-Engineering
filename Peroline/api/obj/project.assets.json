@@ -1832,6 +1832,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.10",
           "xunit": "2.4.1"
         },
         "compile": {

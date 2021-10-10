@@ -28,9 +28,12 @@ namespace peroline.FaultTolerance
 
                 return r;
             }
-            catch(Exception)
+            catch(Exception e)
             {
-                // add error logging here
+                if (tunnel.errorsToRetry.Contains(e.GetType()))
+                {
+                    // log error
+                }
 
                 throw;
             }

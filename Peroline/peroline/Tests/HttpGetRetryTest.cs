@@ -12,7 +12,7 @@ namespace peroline.Tests
         {
             var t = new Tunnel();
 
-            t.Pick(HttpStatusCode.InternalServerError);
+            t.RetryOn(HttpStatusCode.InternalServerError);
 
            
 

@@ -22,7 +22,7 @@ namespace api.Controllers
         // default route
         [Route("/customers/{id}/app")]
         [HttpGet]
-        public async Task<PersonalLoanVm> GetApp(int id) =>
+        public async Task<PersonalLoanVm> GetApp(string id) =>
             await appService.GetApp(id);
 
         [HttpPost]

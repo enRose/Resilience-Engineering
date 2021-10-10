@@ -5,12 +5,13 @@ using api.Services;
 using api.Entities;
 using api.Helpers;
 using api.ViewModels;
+using peroline.FaultTolerance;
 
 namespace api.Services
 {
     public interface IAppService
     {
-        Task<PersonalLoanVm> GetApp(int customerId);
+        Task<PersonalLoanVm> GetApp(string customerId);
         Task<bool> SubmitApp();
         Task<bool> AgreeToRetry();
         Task<bool> ConsumerRetry(PersonalLoanVm app);
@@ -33,7 +34,7 @@ namespace api.Services
             coreBankingService = c;
         }
 
-        public async Task<PersonalLoanVm> GetApp(int customerId)
+        public async Task<PersonalLoanVm> GetApp(string customerId)
         {
             var pl = _dbContext.PersonalLoans.SingleOrDefault(x => x.Id == 1);
 
@@ -48,14 +49,14 @@ namespace api.Services
 
         public async Task<bool> SubmitApp()
         {
-            var app = await GetApp(1);
+            var app = await GetApp("1");
 
             return await coreBankingService.ApplyFor(Convert(app));
         }
 
         public async Task<bool> AgreeToRetry()
         {
-            var app = await GetApp(1);
+            var app = await GetApp("1");
 
             kafkaProducer.Produce(Guid.NewGuid().ToString(), app);
 
