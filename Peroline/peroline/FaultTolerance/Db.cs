@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using Microsoft.EntityFrameworkCore;
 
 namespace peroline.FaultTolerance
@@ -9,9 +7,7 @@ namespace peroline.FaultTolerance
     {
         public Db()
         {
-            var folder = Environment.SpecialFolder.LocalApplicationData;
-            var path = Environment.GetFolderPath(folder);
-            DbPath = $"{path}{Path.DirectorySeparatorChar}retryState.db";
+            DbPath = Environment.CurrentDirectory + @"/Db/sqlite.db";
         }
 
         public DbSet<ErrorMemo> ErrorMemo { get; set; }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/api.csproj": {}
+    "/Users/YiniY/Projects/Resilience-Engineering/Peroline/peroline.ConsoleApp/peroline.ConsoleApp.csproj": {}
   },
   "projects": {
-    "/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/api.csproj": {
+    "/Users/YiniY/Projects/Resilience-Engineering/Peroline/peroline.ConsoleApp/peroline.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/api.csproj",
-        "projectName": "api",
-        "projectPath": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/api.csproj",
+        "projectUniqueName": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/peroline.ConsoleApp/peroline.ConsoleApp.csproj",
+        "projectName": "peroline.ConsoleApp",
+        "projectPath": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/peroline.ConsoleApp/peroline.ConsoleApp.csproj",
         "packagesPath": "/Users/YiniY/.nuget/packages/",
-        "outputPath": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/obj/",
+        "outputPath": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/peroline.ConsoleApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/YiniY/.config/NuGet/NuGet.Config"
+          "/Users/YiniY/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -42,43 +42,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.1.1, )"
-            },
-            "Confluent.Kafka": {
-              "target": "Package",
-              "version": "[1.8.1, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "Polly": {
-              "target": "Package",
-              "version": "[7.2.2, )"
-            },
-            "Polly.Contrib.Simmy": {
-              "target": "Package",
-              "version": "[0.3.0, )"
-            },
-            "System.Net.Http.Json": {
-              "target": "Package",
-              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -92,9 +60,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -113,7 +78,7 @@
         "outputPath": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/peroline/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/YiniY/.config/NuGet/NuGet.Config"
+          "/Users/YiniY/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"

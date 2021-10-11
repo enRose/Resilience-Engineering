@@ -14,7 +14,7 @@
         "outputPath": "/Users/YiniY/Projects/Resilience-Engineering/Peroline/peroline/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/YiniY/.config/NuGet/NuGet.Config"
+          "/Users/YiniY/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -38,6 +38,12 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.10, )"
