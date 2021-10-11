@@ -88,9 +88,3 @@
 /Users/YiniY/Projects/Resilience-Engineering/Peroline/api/obj/Debug/netcoreapp3.1/api.pdb
 /Users/YiniY/Projects/Resilience-Engineering/Peroline/api/obj/Debug/netcoreapp3.1/api.genruntimeconfig.cache
 /Users/YiniY/Projects/Resilience-Engineering/Peroline/api/bin/Debug/netcoreapp3.1/System.Net.Http.Json.dll
-/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/bin/Debug/netcoreapp3.1/xunit.abstractions.dll
-/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/bin/Debug/netcoreapp3.1/xunit.assert.dll
-/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/bin/Debug/netcoreapp3.1/xunit.core.dll
-/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/bin/Debug/netcoreapp3.1/xunit.execution.dotnet.dll
-/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/bin/Debug/netcoreapp3.1/peroline.dll
-/Users/YiniY/Projects/Resilience-Engineering/Peroline/api/bin/Debug/netcoreapp3.1/peroline.pdb

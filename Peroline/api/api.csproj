@@ -28,6 +28,7 @@
     <None Remove="AutomapperProfiles\" />
     <None Remove="Db\" />
     <None Remove="Settings\" />
+    <None Remove="FaultTolerance\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -37,10 +38,6 @@
     <Folder Include="AutomapperProfiles\" />
     <Folder Include="Db\" />
     <Folder Include="Configs\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\peroline\peroline.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
+    <Folder Include="FaultTolerance\" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ using api.Services;
 using api.Entities;
 using api.Helpers;
 using api.ViewModels;
-using peroline.FaultTolerance;
+using api.FaultTolerance;
 
 namespace api.Services
 {

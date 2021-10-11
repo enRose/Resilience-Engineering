@@ -2,7 +2,8 @@
 using System.Net;
 using System.Threading.Tasks;
 using api.ViewModels;
-using peroline.FaultTolerance;
+using api.FaultTolerance;
+using api.Helpers;
 
 namespace api.Services
 {
@@ -17,19 +18,22 @@ namespace api.Services
 
     public class FaultTolerantService : IFaultTolerantService
     {
+        private DataContext _dbContext;
         private readonly IAppService appService;
 
         public FaultTolerantService(
+            DataContext context,
             IAppService s)
         {
+            _dbContext = context;
             appService = s;
         }
 
         public async Task<PersonalLoanVm> GetApp(string customerId, string botId = null)
         {
-            var tunnel = new Tunnel();
+            var tunnel = new Tunnel(_dbContext);
 
-            return await tunnel.RetryOn(
+            return await tunnel.When(
                 HttpStatusCode.InternalServerError,
                 HttpStatusCode.ServiceUnavailable
                 )

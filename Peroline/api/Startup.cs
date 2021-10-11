@@ -32,6 +32,7 @@ namespace api
             services.AddHttpClient();
             services.AddHttpClient<CoreBankingService>();
             services.AddScoped<IAppService, AppService>();
+            services.AddScoped<IFaultTolerantService, FaultTolerantService>();
             services.AddScoped<IKafkaProducer, KafkaProducer>();
         }
 

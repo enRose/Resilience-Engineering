@@ -2,12 +2,15 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using api.Entities;
+using api.FaultTolerance;
 
 namespace api.Helpers
 {
     public class DataContext : DbContext
     {
         public DbSet<PersonalLoan> PersonalLoans { get; set; }
+
+        public DbSet<Memo> ErrorMemo { get; set; }
 
         private readonly IConfiguration Configuration;
 
